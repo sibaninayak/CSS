@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+<body>
+    <!-- universal selector -->
+    <style>
+        *{
+            background: beige;
+        }
+      h1{
+        color: darkmagenta;
+      }
+      h2{
+        color: darkblue;
+      }
+
+      /* for class (.) */
+      .sel_elm {
+        color: chocolate;
+      }
+
+      /* for id (#) */
+      #sel_elm {
+        color: orangered;
+      }
+      /* id is important than class */
+      #h1_elm {
+        color: plum;   
+      }
+
+      .h1_elm {
+        color: rgba(red, green, blue, alpha)  !important;
+      }
+    </style>
+    <h1 class="h1_elm" id="h1_elm">saeng-ilchughahae</h1>
+    <h1>min yoongii</h1>
+
+    <h1 class="sel_elm">BANGTAN MEMBERS</h1>
+    <h2>kim namjoon</h2>
+    <h2>kim seokjin</h2>
+    <h2 id="sel_elm">min yoongi</h2>
+    <h2>jung hoseok</h2>
+    <h2>park jimin</h2>
+    <h2>kim taehyung</h2>
+    <h2>jeon jungkook</h2>
+
+</body>
+</html>
