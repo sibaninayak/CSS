@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <style>
+        div{
+            width: 240px;
+            height: 400px;
+            overflow-x: auto;
+            overflow-y: auto;
+        }
+        table{
+            padding: 10px;
+            border: 1px solid black;
+            width: 200px;
+            border-collapse: separate;
+            table-layout: auto;
+        }
+        table td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            background: lightyellow;
+            color: darkblue;
+        }
+        table caption{
+            color: purple;
+            background: lightyellow;
+            border: 1px solid;
+            padding: 10px;
+            font-weight: 500;
+            font-size: larger;
+        }
+        table thead{
+            background: lightyellow;
+            color:  red;
+        }
+        table tbody tr:nth-child(even) {
+            color: black;
+            background: lightpink;
+        }
+        
+    </style>
+    <div>
+    <table>
+        <caption>Bangtan Sonyeondan(BTS)</caption>
+        <thead>
+            <tr>
+                <th>NamE</th>
+                <th>NickName</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>kim namjooon</td>
+                <td>RM</td>
+            </tr>
+            <tr>
+                <td>kim seokjin</td>
+                <td>JIN</td>
+            </tr>
+            <tr>
+                <td>min yoongi</td>
+                <td>SUGA</td>
+            </tr>
+            <tr>
+                <td>jung hoseok</td>
+                <td>JHOPE</td>
+            </tr>
+            <tr>
+                <td>park jimin</td>
+                <td>JIMIN</td>
+            </tr>
+            <tr>
+                <td>kim taehyung</td>
+                <td>V</td>
+            </tr>
+            <tr>
+                <td>jeon jungkook</td>
+                <td>JK</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
